@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Paint Master</string>
+    <string name="maker1">MCS Rap4 468</string>
+    <string name="maker2">Planet Eclipse EMF100</string>
+    <string name="maker3">Carmatech SAR-12</string>
+    <string name="maker4">First Strike T15</string>
+    <string name="maker5">Hard Style - AK 20 - Holz Version</string>
+    <string name="maker6">Hard Style - AK 20 - Tactical Version</string>
+    <string name="maker7">FirstStrike T15 DMR</string>
+    <string name="maker8">Kings Arms M79 Grenade Launcher</string>
+    <string name="maker9">Tippmann TMC Elite</string>
+    <string name="maker10">Umarex T4E HDB 68</string>
 </resources>
