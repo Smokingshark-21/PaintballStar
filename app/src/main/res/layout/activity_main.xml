@@ -62,12 +62,34 @@
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:itemCount="10"
-        tools:listitem="@layout/list_item" />
+        tools:listitem="@layout/list_item"
+        app:layout_constraintBottom_toTopOf="@id/dividerV"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/warenkorbRV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/dividerV"
+        tools:itemCount="2"
+        tools:listitem="@layout/waren_item"/>
+
+    <View
+        android:id="@+id/dividerV"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginBottom="80dp"
+        android:background="#D961009C"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
